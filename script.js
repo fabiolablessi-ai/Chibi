@@ -29,32 +29,32 @@ chibi.src="chibi_cute.png";
 // Open when letters
 
     function openTired(){
-        speech.innerText="Open when you're tired: Hi, my love. You don't have to be so strong right now. I know you carry so much quietly. You push yourself harder than anyone sees. You don't complain enough. You just keep going, and sometimes that means you end up exhausted before you even realize it. Come here. You're allowed to be tired. You're allowed to not have energy. You're allowed to sit down and just.. exist. If I were there, I'd pull you into my chest and let your whole weight lean into me. I'd run my fingers through your hair and tell you how proud I am of you, not for what you accomplish, but for who you are. Rest doesn't make you weak. It means you've been trying. Close your eyes for a second. You don't have to prove anything tonight. I love you.";
+        speech.innerText="Hi, my love. You don't have to be so strong right now. You always carry so much quietly. You push yourself harder than anyone sees. You don't complain enough. You just keep going, and sometimes that means you end up exhausted before you even realize it. Come on over here now. You're allowed to be tired. You're allowed to not have energy. You're allowed to sit down and just.. exist. If I were there, I'd pull you into my chest and let your whole weight lean into me. I'd run my fingers through your hair and tell you how proud I am of you, not just for what you accomplish, but for who you are. Rest doesn't make you weak. It means you've been trying. Close your eyes for a second. You don't have to prove anything tonight. I love you.";
         chibi.src="chibi_cute.png";
         heartExplosion();
 
     }
     function openStressed(){
-        speech.innerText="Open when you're stressed: Hey you. I know your brain is loud right now. I know everything feels urgent and heavy and like you're responsible for fixing all of it. You don't have to solve the world in one night. Take one breath with me. Just one. Inhale slowly. Exhale slower. You are capable. You always have been. But you don't have to carry everything alone. Let me hold some of it with you, even if it's just sitting quietly while you think. I believe in you so deeply. Not in a 'you better suceceed' way. In a 'even if you fail, I'm still here' way. You are not your stress. You are not your deadlines. You are not your worst-case scenarios. You're the man I love, adore and will cherish for as long as I can. And, that doesn't change when life gets loud.";
+        speech.innerText="Mishrifff, hi baby. Is your brain too loud right now? I know everything feels urgent and heavy and like you're responsible for fixing all of it. You don't have to solve the world in one night, yk. Take one more deep breath with me, like you always do. Just one. Inhale slowly. Exhale slower. You are capable. You always have been. But you don't have to carry everything alone. Let me hold some of it with you, even if it's just sitting quietly while you think. I believe in you so deeply. You are not your stress. You are not your deadlines. You are not your worst-case scenarios. You're the man I love, adore, and will cherish for as long as I can. And, that doesn't change when life gets loud. Meow.";
         chibi.src="chibi_cute.png";
         heartExplosion();
 
     }
     function openMissingMe(){
-        speech.innerText="Open when you miss me: Hi, baby. Why not just call me, y'know? I miss you too. So much. More than I say. There are little moments in my day where I just think, 'HE would laugh at this,' or 'I wish he was here right now.' When you miss me, I hope you don't feel empty. I hope you feel how real this is. Missing someone means they matter. Alot. I wish I could reach through the screen and press my forehead against yours. I'd probably smile that soft smile you tease me about. You're not alone in the missing. I'm right here, loving you at the same time.";
-        chibi.src="chibi_cute.png";
+        speech.innerText="Hi, baby. Why not just call me, y'know? I miss you too. So much. More than I say. There are little moments in my day where I just think, 'He would laugh at this,' or 'I wish he were here right now.' When you miss me, I hope you don't feel empty. I hope you feel how real this is. Missing someone means they matter. Alot. I wish I could reach through the screen and press my forehead against yours. You're not alone in the missing, btw. I'm over here constantly missing you, yearning for the moment I'll get to hear you again, seeing you in everything that's around me. Kisses.";
+        chibi.src="chibi_mad.png";
         heartExplosion();
 
     }
     function openDoubt(){
-        speech.innerText="Open when you're doubting yourself: Nuh uh, I don't like anyone being mean to you and that includes yourself even when you're unsure? You are not behind in life. You are not failing. You are not 'less than.' You are growing. And growth is messy and uncontrollable and slow. I love your ambition, sweetheart. But I love your heart more. And, your heart is alreeady kind, steady, and real. Even on days you feel unsure. You don't need to be perfect to deserve love, you already have all of mine. I wish you could see yourself through my eyes just once. You'd be so much gentler with yourself. My pretty boy.";
-        chibi.src="chibi_cute.png";
+        speech.innerText="Nuh uh, I don't like anyone being mean to you, and that includes yourself, even when you're unsure? You are not behind in life. You are not failing. You are not 'less than.' You are growing. And growth is messy and uncontrollable and slow. I love your ambition, sweetheart. But I love your soul more. And, your soul is already kind, steady, and real. Even on days you feel unsure. You don't need to be perfect to deserve love or feel worthy; you already have all of mine. I wish you could see yourself through my eyes just once. You'd be so much gentler with yourself. My pretty boy.";
+        chibi.src="chibi_mad.png";
         heartExplosion();
 
     }
         function openOverwhelmed(){
-        speech.innerText="Open when you feel like you're being lazy: Hey, doctor. So, resting is not laziness. You aren;t a machine. You are a human being with a nervous system that needs to reset sometimes and yyou've been at this race of yours for quite a while. If you're been working hardm thinking hard, stressing hard, your body is going to ask for some stillness, that's just balance, baby. You don't owe productivity to anyone every secind of the day. If today you needed to lay down, scroll, breathe, stare at the ceiling, or do nothing at all? That's okay. You are allowed to exist without earning it. You're more than enough even in your quiet days. Especially in them.";
-        chibi.src="chibi_cute.png";
+        speech.innerText="Hey, doctor. So, resting is not laziness. You aren't a machine. You are a human being with a nervous system that needs to reset sometimes, and you've been at this race of yours for quite a while. If you've been working hard and thinking hard, stressing hard, your body is going to ask for some stillness, that's just balance, baby. You don't owe productivity to anyone every second of the day. If today you needed to lie down, scroll, breathe, stare at the ceiling, or do nothing at all? That's okay. You are allowed to exist without earning it. You're more than enough even in your quiet days. Especially in them.";
+        chibi.src="icon.png";
         heartExplosion();
 
         }
@@ -174,5 +174,6 @@ function floatingHearts(){
  setTimeout(()=>heart.remove(),6000);
 }
  setInterval(floatingHearts,1200);
+
 
 
